@@ -1,13 +1,11 @@
 import 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Navigation from './naviagation';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open your app! ajsas</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Navigation></Navigation>
   );
 }
 

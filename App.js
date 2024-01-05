@@ -1,10 +1,11 @@
+import 'react-native-gesture-handler'
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open your app!</Text>
+      <Text>Open your app! ajsas</Text>
       <StatusBar style="auto" />
     </View>
   );

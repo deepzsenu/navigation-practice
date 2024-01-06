@@ -18,7 +18,7 @@ function HomeStackGroup (){
     return (
         <HomeStack.Navigator>
             <HomeStack.Screen name = "Feed" component={Feed}/>
-            <HomeStack.Screen name = "HomeStackScreen" component={TweetDetailScreen}/>
+            <HomeStack.Screen name = "TweetDetailsScreen" component={TweetDetailScreen}/>
         </HomeStack.Navigator>
     )
 }
@@ -45,7 +45,7 @@ function TabGroup() {
         })}
         
         >
-            <Tab.Screen name="Home" component={Feed} />
+            <Tab.Screen name="Home" component={HomeStackGroup} />
             <Tab.Screen name="Setting" component={Settings} />
             <Tab.Screen name="Notification" component={Notifications} />
 

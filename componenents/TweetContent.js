@@ -2,6 +2,8 @@
 import React from "react";
 import { StyleSheet, View, Image, Text, useColorScheme } from "react-native";
 import { EvilIcons } from "@expo/vector-icons";
+
+
 const tweetActions = (retweets, comments, likes) => {
   const theme = useColorScheme();
   return (
